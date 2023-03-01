@@ -101,22 +101,3 @@ p a{
 /* .languages{
     background-color: white;
 } */
-.footer{
-	max-width: 935px;
-	width: 100%;
-    margin-bottom: 550px;
-	margin: 0 auto;
-	padding: 40px 0;
-	display: flex;
-	justify-content: space-between;
-}
-
-.footer .links ul li{
-	display: inline-block;
-	margin-right: 10px;
-}
-
-.footer .links ul li a{
-	color: #003569;
-	font-size: 12px;
-}
