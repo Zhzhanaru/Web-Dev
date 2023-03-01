@@ -6,9 +6,10 @@ export interface Product {
   description: string;
   url:string;
   img:string;
+  discount?: number;
 }
 
-export const products = [
+export const products : Product[]= [
   {
     id: 1,
     name: 'Iphone 13',
