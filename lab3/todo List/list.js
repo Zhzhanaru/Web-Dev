@@ -2,11 +2,25 @@ document.querySelector('#push').onclick = function(){
     if(document.querySelector('#newtask input').value.length == 0){
         alert("Please Enter a Task")
     }
+    // else{
+    //     if(document.querySelector('#dateInput').value.length == 0){
+    //         alert("Please Enter a Date")
+    //     }
+    // }
+        // else{
+    //     if(document.querySelector('#timeInput').value.length == 0){
+    //         alert("Please Enter a Date")
+    //     }
+    // }
+
+
     else{
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
                 <span id="taskname">
                     ${document.querySelector('#newtask input').value}
+                    ${document.querySelector('#dateInput').value}
+                    ${document.querySelector('#timeInput').value}
                 </span>
                 <button class="delete">
                     <i class="far fa-trash-alt"></i>
